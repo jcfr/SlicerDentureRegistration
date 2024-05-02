@@ -4,12 +4,12 @@ project(DentureRegistration)
 
 #-----------------------------------------------------------------------------
 # Extension meta-information
-set(EXTENSION_HOMEPAGE "https://www.slicer.org/wiki/Documentation/Nightly/Extensions/DentureRegistration")
-set(EXTENSION_CATEGORY "Examples")
-set(EXTENSION_CONTRIBUTORS "Xiaojun Chen, Mingjun Gong, Yueang Liu (AnyWare Corp.)")
-set(EXTENSION_DESCRIPTION "This is an example of denture registration")
-set(EXTENSION_ICONURL "https://www.example.com/Slicer/Extensions/DentureRegistration.png")
-set(EXTENSION_SCREENSHOTURLS "https://www.example.com/Slicer/Extensions/DentureRegistration/Screenshots/1.png")
+set(EXTENSION_HOMEPAGE "https://github.com/gongmingjun/SlicerDentureRegistration#readme")
+set(EXTENSION_CATEGORY "Registration")
+set(EXTENSION_CONTRIBUTORS "Xiaojun Chen (SJTU), Mingjun Gong (SJTU), Yueang Liu (SJTU)")
+set(EXTENSION_DESCRIPTION "This is an extension module to realize the registration of patients' CT images and the corresponding denture models.")
+set(EXTENSION_ICONURL "https://raw.githubusercontent.com/gongmingjun/SlicerDentureRegistration/master/icon.png")
+set(EXTENSION_SCREENSHOTURLS "https://raw.githubusercontent.com/gongmingjun/SlicerDentureRegistration/master/DentureRegistration.jpg")
 set(EXTENSION_DEPENDS "NA") # Specified as a list or "NA" if no dependencies
 
 #-----------------------------------------------------------------------------
